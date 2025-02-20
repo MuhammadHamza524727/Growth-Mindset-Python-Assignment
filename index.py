@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 import os
-import openpyxl
-from io import BytesIO 
 
+
+from io import BytesIO 
+print("openpyxl is installed successfully!")
 st.set_page_config(page_title="Data Sweeper", layout='wide')
 
 # Custom CSS
